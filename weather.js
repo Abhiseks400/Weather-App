@@ -10,7 +10,7 @@ function getWeather(){
 
 	if(city != ''){
 		$.ajax({
-			url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + 
+			url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + 
 			"&APPID=52827ce67cdeeaaf0c60c4b244f1bf10", 
 			type: "GET",
 			dataType: "jsonp",
